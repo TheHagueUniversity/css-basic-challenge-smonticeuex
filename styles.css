@@ -69,7 +69,10 @@ header {
   color: #FDFFFC;
 }
 
-
+footer {
+  background: #2B061E;
+  color: #FDFFFC;
+}
 /* Projects
 ------------------------------------*/
 .projects {
@@ -82,7 +85,7 @@ header {
   color: #FDFFFC;
   background: #FF5E5B;
   text-decoration: none;
-  padding: 8px;
+  padding: 10px;
   border-radius: 4px;
   display: inline-block;
 }
@@ -118,13 +121,40 @@ header {
   width: 60%;
 }
 
+/* Hobbies
+------------------------------------*/
+.hobbies {
+  background: #F7F0F5; 
+  
+}
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+
 
 /* Contact Info
 ------------------------------------*/
-footer {
-  background: #020100;
-  color: #FDFFFC;
-}
+
+
 .contact-list {
   list-style-type: none;
   padding: 0;
